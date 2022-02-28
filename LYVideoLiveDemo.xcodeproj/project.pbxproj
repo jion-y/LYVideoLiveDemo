@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DE9BAF0434B2956AA93DC99 /* Pods_LYVideoLiveDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FA0520DF15AFDCCB68295E /* Pods_LYVideoLiveDemo.framework */; };
+		BE63CA0627C8BB750095C650 /* LYCaptureAdapte.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63CA0527C8BB750095C650 /* LYCaptureAdapte.m */; };
+		BE63CA0927C8C0860095C650 /* LYGPUInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63CA0827C8C0860095C650 /* LYGPUInputFilter.m */; };
+		BE63CA0C27C8C7710095C650 /* LYRGBVideoProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63CA0B27C8C7710095C650 /* LYRGBVideoProgress.m */; };
+		BE63CA0F27C8C7D80095C650 /* LYBaseVideoProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63CA0E27C8C7D80095C650 /* LYBaseVideoProgress.m */; };
+		BE63CA1327C8E82D0095C650 /* LYH264Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63CA1227C8E82D0095C650 /* LYH264Encoder.m */; };
+		BE63CA1627C8F4BB0095C650 /* LYEndFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63CA1527C8F4BB0095C650 /* LYEndFilter.m */; };
 		BEC51CCB27C2824C0007BF9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC51CCA27C2824C0007BF9A /* AppDelegate.m */; };
 		BEC51CCE27C2824C0007BF9A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC51CCD27C2824C0007BF9A /* SceneDelegate.m */; };
 		BEC51CD127C2824C0007BF9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC51CD027C2824C0007BF9A /* ViewController.m */; };
@@ -22,9 +29,25 @@
 		BEC51ECA27C28E720007BF9A /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC51EC227C28E720007BF9A /* libswresample.a */; };
 		BEC51ECB27C28E720007BF9A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC51EC327C28E720007BF9A /* libssl.a */; };
 		BEC51ECC27C28E720007BF9A /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC51EC427C28E720007BF9A /* libswscale.a */; };
+		BECD632727C4E2C800C79D7A /* LYVideoCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = BECD632627C4E2C800C79D7A /* LYVideoCapture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72F7640EC6AF77CA16E36CB5 /* Pods-LYVideoLiveDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYVideoLiveDemo.debug.xcconfig"; path = "Target Support Files/Pods-LYVideoLiveDemo/Pods-LYVideoLiveDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		89FA0520DF15AFDCCB68295E /* Pods_LYVideoLiveDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYVideoLiveDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98111A9053164E8EA7B43F91 /* Pods-LYVideoLiveDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYVideoLiveDemo.release.xcconfig"; path = "Target Support Files/Pods-LYVideoLiveDemo/Pods-LYVideoLiveDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BE63CA0427C8BB750095C650 /* LYCaptureAdapte.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCaptureAdapte.h; sourceTree = "<group>"; };
+		BE63CA0527C8BB750095C650 /* LYCaptureAdapte.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCaptureAdapte.m; sourceTree = "<group>"; };
+		BE63CA0727C8C0860095C650 /* LYGPUInputFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYGPUInputFilter.h; sourceTree = "<group>"; };
+		BE63CA0827C8C0860095C650 /* LYGPUInputFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYGPUInputFilter.m; sourceTree = "<group>"; };
+		BE63CA0A27C8C7710095C650 /* LYRGBVideoProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYRGBVideoProgress.h; sourceTree = "<group>"; };
+		BE63CA0B27C8C7710095C650 /* LYRGBVideoProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYRGBVideoProgress.m; sourceTree = "<group>"; };
+		BE63CA0D27C8C7D80095C650 /* LYBaseVideoProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseVideoProgress.h; sourceTree = "<group>"; };
+		BE63CA0E27C8C7D80095C650 /* LYBaseVideoProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseVideoProgress.m; sourceTree = "<group>"; };
+		BE63CA1127C8E82D0095C650 /* LYH264Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYH264Encoder.h; sourceTree = "<group>"; };
+		BE63CA1227C8E82D0095C650 /* LYH264Encoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYH264Encoder.m; sourceTree = "<group>"; };
+		BE63CA1427C8F4BB0095C650 /* LYEndFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYEndFilter.h; sourceTree = "<group>"; };
+		BE63CA1527C8F4BB0095C650 /* LYEndFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYEndFilter.m; sourceTree = "<group>"; };
 		BEC51CC627C2824C0007BF9A /* LYVideoLiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYVideoLiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC51CC927C2824C0007BF9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEC51CCA27C2824C0007BF9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -253,6 +276,8 @@
 		BEC51EC227C28E720007BF9A /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
 		BEC51EC327C28E720007BF9A /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
 		BEC51EC427C28E720007BF9A /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
+		BECD632527C4E2C800C79D7A /* LYVideoCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYVideoCapture.h; sourceTree = "<group>"; };
+		BECD632627C4E2C800C79D7A /* LYVideoCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYVideoCapture.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,17 +293,46 @@
 				BEC51EC927C28E720007BF9A /* libavformat.a in Frameworks */,
 				BEC51ECA27C28E720007BF9A /* libswresample.a in Frameworks */,
 				BEC51EC827C28E720007BF9A /* libavcodec.a in Frameworks */,
+				7DE9BAF0434B2956AA93DC99 /* Pods_LYVideoLiveDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38E4EF00EC4B8B4198E0E565 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72F7640EC6AF77CA16E36CB5 /* Pods-LYVideoLiveDemo.debug.xcconfig */,
+				98111A9053164E8EA7B43F91 /* Pods-LYVideoLiveDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		62A66E522F12901AFCC414A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89FA0520DF15AFDCCB68295E /* Pods_LYVideoLiveDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE63CA1027C8E8180095C650 /* Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				BE63CA1127C8E82D0095C650 /* LYH264Encoder.h */,
+				BE63CA1227C8E82D0095C650 /* LYH264Encoder.m */,
+			);
+			path = Encoder;
+			sourceTree = "<group>";
+		};
 		BEC51CBD27C2824C0007BF9A = {
 			isa = PBXGroup;
 			children = (
 				BEC51CC827C2824C0007BF9A /* LYVideoLiveDemo */,
 				BEC51CC727C2824C0007BF9A /* Products */,
+				38E4EF00EC4B8B4198E0E565 /* Pods */,
+				62A66E522F12901AFCC414A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -293,6 +347,9 @@
 		BEC51CC827C2824C0007BF9A /* LYVideoLiveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BE63CA1027C8E8180095C650 /* Encoder */,
+				BED114DC27C88C6E00819A8B /* Native */,
+				BECD632327C4E27E00C79D7A /* Capture */,
 				BEC51DD627C28E580007BF9A /* ThirdParty */,
 				BEC51CC927C2824C0007BF9A /* AppDelegate.h */,
 				BEC51CCA27C2824C0007BF9A /* AppDelegate.m */,
@@ -684,6 +741,48 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		BECD632327C4E27E00C79D7A /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				BED114DB27C88A2A00819A8B /* Render */,
+				BECD632427C4E29E00C79D7A /* Video */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		BECD632427C4E29E00C79D7A /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				BECD632527C4E2C800C79D7A /* LYVideoCapture.h */,
+				BECD632627C4E2C800C79D7A /* LYVideoCapture.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		BED114DB27C88A2A00819A8B /* Render */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
+		BED114DC27C88C6E00819A8B /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				BE63CA0427C8BB750095C650 /* LYCaptureAdapte.h */,
+				BE63CA0527C8BB750095C650 /* LYCaptureAdapte.m */,
+				BE63CA0727C8C0860095C650 /* LYGPUInputFilter.h */,
+				BE63CA0827C8C0860095C650 /* LYGPUInputFilter.m */,
+				BE63CA0D27C8C7D80095C650 /* LYBaseVideoProgress.h */,
+				BE63CA0E27C8C7D80095C650 /* LYBaseVideoProgress.m */,
+				BE63CA0A27C8C7710095C650 /* LYRGBVideoProgress.h */,
+				BE63CA0B27C8C7710095C650 /* LYRGBVideoProgress.m */,
+				BE63CA1427C8F4BB0095C650 /* LYEndFilter.h */,
+				BE63CA1527C8F4BB0095C650 /* LYEndFilter.m */,
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -691,9 +790,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEC51CDF27C2824E0007BF9A /* Build configuration list for PBXNativeTarget "LYVideoLiveDemo" */;
 			buildPhases = (
+				AA0B149BDF640C389FBE3A5F /* [CP] Check Pods Manifest.lock */,
 				BEC51CC227C2824C0007BF9A /* Sources */,
 				BEC51CC327C2824C0007BF9A /* Frameworks */,
 				BEC51CC427C2824C0007BF9A /* Resources */,
+				89F8841B353392689EFDA6F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -749,14 +850,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		89F8841B353392689EFDA6F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYVideoLiveDemo/Pods-LYVideoLiveDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYVideoLiveDemo/Pods-LYVideoLiveDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LYVideoLiveDemo/Pods-LYVideoLiveDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0B149BDF640C389FBE3A5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYVideoLiveDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BEC51CC227C2824C0007BF9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE63CA0627C8BB750095C650 /* LYCaptureAdapte.m in Sources */,
 				BEC51CD127C2824C0007BF9A /* ViewController.m in Sources */,
 				BEC51CCB27C2824C0007BF9A /* AppDelegate.m in Sources */,
+				BE63CA1327C8E82D0095C650 /* LYH264Encoder.m in Sources */,
+				BE63CA0C27C8C7710095C650 /* LYRGBVideoProgress.m in Sources */,
+				BE63CA0F27C8C7D80095C650 /* LYBaseVideoProgress.m in Sources */,
+				BECD632727C4E2C800C79D7A /* LYVideoCapture.m in Sources */,
+				BE63CA0927C8C0860095C650 /* LYGPUInputFilter.m in Sources */,
 				BEC51CDC27C2824E0007BF9A /* main.m in Sources */,
+				BE63CA1627C8F4BB0095C650 /* LYEndFilter.m in Sources */,
 				BEC51CCE27C2824C0007BF9A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -897,6 +1047,7 @@
 		};
 		BEC51CE027C2824E0007BF9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F7640EC6AF77CA16E36CB5 /* Pods-LYVideoLiveDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -910,6 +1061,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -928,6 +1080,7 @@
 		};
 		BEC51CE127C2824E0007BF9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98111A9053164E8EA7B43F91 /* Pods-LYVideoLiveDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -941,6 +1094,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
